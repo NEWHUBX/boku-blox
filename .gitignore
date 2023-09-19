@@ -1,41 +1,20 @@
-# Compiled Lua sources
-luac.out
+MON = Noumu
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+MON = 
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+MON =
 
-# Precompiled Headers
-*.gch
-*.pch
+MON =
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+MON =
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+local TP = game.Players.LocalPlayer.Character.HumanoidRootPart
 
+game:GetService("Workspace").NPCs[MON].HumanoidRootPart.CFrame = TP.CFarme * CFrame.new(0,-5,0)
+
+end
+
+end
+
+end
